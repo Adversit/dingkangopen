@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-06T23:19:10+08:00",
+  "works": [
+    {
+      "id": "yourwar",
+      "title": "YourWar · 你的战争",
+      "category": "game",
+      "summary": "自由摆下你的阵容，在 3D 战争沙盘中尝试不同战术。",
+      "features": ["3D 沙盘", "自由布阵", "战术挑战"],
+      "access": "public",
+      "url": "https://yourwar-battle-forge.dingikang.chatgpt.site/",
+      "cover": {"src": "assets/images/hero-yourwar.webp", "small": "assets/images/hero-yourwar-960.webp", "width": 1659, "height": 948, "smallWidth": 960, "alt": "YourWar 概念封面：峡谷两侧的机器人军团，非实际游戏截图。"}
+    },
+    {
+      "id": "pocket-arcade",
+      "title": "口袋游乐场 · 十款即玩小游戏",
+      "category": "game",
+      "summary": "十种独立玩法，随手开启一局；从塔防、幸存者到跑酷与策略。",
+      "features": ["十款小游戏", "电脑与触屏", "多种玩法"],
+      "access": "public",
+      "url": "https://pocket-arcade-ten.dingikang.chatgpt.site/",
+      "cover": {"src": "assets/images/pocket-arcade.webp", "small": "assets/images/pocket-arcade-720.webp", "width": 1691, "height": 930, "smallWidth": 720, "alt": "口袋游乐场概念封面：暗色桌面上的游戏物件，非实际游戏截图。"}
+    },
+    {
+      "id": "roommate-housekeeper",
+      "title": "同住 · 合租生活管家",
+      "category": "tool",
+      "summary": "把费用分摊、值日与公共物品放在一起，让合租生活更有条理。",
+      "features": ["费用 AA", "值日排班", "室友公约"],
+      "access": "public",
+      "url": "https://roommate-housekeeper.dingikang.chatgpt.site/",
+      "cover": {"src": "assets/images/roommate-housekeeper.webp", "small": "assets/images/roommate-housekeeper-640.webp", "width": 1200, "height": 750, "smallWidth": 640, "alt": "同住概念封面：象征合租生活与协作的微缩场景，非实际应用截图。"}
+    },
+    {
+      "id": "ai-collaboration",
+      "title": "AI Development Collaboration",
+      "category": "tool",
+      "summary": "面向软件、Agent、架构与设计转代码的人机协作可视化工作台。",
+      "features": ["人机协作", "可视化工作台", "设计转代码"],
+      "access": "public",
+      "url": "https://ai-dev-collaboration-workbench.dingikang.chatgpt.site/",
+      "cover": {"src": "assets/images/ai-collaboration.webp", "small": "assets/images/ai-collaboration-640.webp", "width": 1200, "height": 750, "smallWidth": 640, "alt": "AI 协作工作台概念封面：象征人机协作的模块与连接，非实际应用截图。"}
+    },
+    {
+      "id": "mistbound-letters",
+      "title": "雾海来信",
+      "category": "game",
+      "summary": "驾驶小邮船穿过夜色群岛，送信、收集回忆，慢慢修复灯塔。",
+      "features": ["文字休闲", "群岛探索", "送信与回忆"],
+      "access": "public",
+      "url": "https://mistbound-letters.dingikang.chatgpt.site/",
+      "cover": {"src": "assets/images/mistbound-letters.webp", "small": "assets/images/mistbound-letters-640.webp", "width": 1200, "height": 750, "smallWidth": 640, "alt": "雾海来信概念封面：夜海、邮船与灯塔的微缩场景，非实际游戏截图。"}
+    },
+    {
+      "id": "moonlit-immortal",
+      "title": "月下问仙录",
+      "category": "game",
+      "summary": "在奇遇中做出选择，经营宗门，经历一段渡劫突破的文字修仙旅程。",
+      "features": ["奇遇抉择", "宗门养成", "文字修仙"],
+      "access": "public",
+      "url": "https://moonlit-immortal-chronicle.dingikang.chatgpt.site/",
+      "cover": {"src": "assets/images/moonlit-immortal.webp", "small": "assets/images/moonlit-immortal-640.webp", "width": 1200, "height": 750, "smallWidth": 640, "alt": "月下问仙录概念封面：月夜仙山与修行意象，非实际游戏截图。"}
+    },
+    {
+      "id": "yunque-sanguo",
+      "title": "云阙三国 · 群星觉醒",
+      "category": "game",
+      "summary": "以三国幻想为舞台，招募与培养角色，组合阵容，展开卡牌 RPG 征战。",
+      "features": ["卡牌 RPG", "招募养成", "羁绊合击"],
+      "access": "public",
+      "url": "https://yunque-sanguo.dingikang.chatgpt.site/",
+      "cover": {"src": "assets/images/yunque-sanguo.webp", "small": "assets/images/yunque-sanguo-640.webp", "width": 1200, "height": 750, "smallWidth": 640, "alt": "云阙三国概念封面：三国幻想卡牌与微缩战场意象，非实际游戏截图。"}
+    },
+    {
+      "id": "agent-journey",
+      "title": "从零搭建 Agent · 架构学习日志",
+      "category": "learning",
+      "summary": "用可视化架构画布与阶段记录，梳理从零搭建 Agent 的学习过程。",
+      "features": ["架构画布", "阶段记录", "Agent 学习"],
+      "access": "restricted",
+      "url": "https://agent-architecture-journey.dingikang.chatgpt.site/",
+      "cover": {"src": "assets/images/agent-journey.webp", "small": "assets/images/agent-journey-640.webp", "width": 1200, "height": 750, "smallWidth": 640, "alt": "Agent 学习日志概念封面：架构模块与学习记录意象，非实际笔记截图。"}
+    }
+  ]
+}

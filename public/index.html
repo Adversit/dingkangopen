@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="丁康的个人主页。关注 AI Agent 与金融科技，分享 YourWar、口袋游乐场作品入口与经过整理的公开学习笔记。">
+  <meta name="description" content="丁康的夜航实验室。关注 AI Agent 与金融科技，探索原创游戏、生活工具、人机协作作品与公开学习记录。">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#0e1414">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; font-src 'self'; script-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
-  <title>丁康 · 个人实验室｜AI Agent 与金融科技</title>
+  <title>丁康 · 夜航实验室｜作品与学习记录</title>
   <link rel="icon" type="image/svg+xml" href="./assets/icons/square-fill.svg">
   <link rel="preload" href="./assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="./assets/fonts/noto-sans-sc-subset.woff2" as="font" type="font/woff2" crossorigin>
@@ -16,12 +16,14 @@
   <script defer src="./notes-data.js"></script>
   <script defer src="./notes-core.js"></script>
   <script defer src="./app.js"></script>
+  <script defer src="./works-core.js"></script>
+  <script defer src="./works.js"></script>
 </head>
 <body id="top">
   <a class="skip-link" href="#main">跳到主要内容</a>
   <header class="site-header frame">
     <a class="brand" href="#top" aria-label="丁康的个人主页，返回页首"><img class="brand-icon" src="./assets/icons/square-fill.svg" width="20" height="20" alt=""><span>丁康</span></a>
-    <nav class="site-nav" aria-label="主导航"><a href="#works" data-nav="works" aria-current="location">作品</a><a href="#about" data-nav="about">关于我</a><a href="#notes" data-nav="notes">学习笔记</a></nav>
+    <nav class="site-nav" aria-label="主导航"><a href="#explore" data-nav="works" aria-current="location">作品</a><a href="#about" data-nav="about">关于我</a><a href="#notes" data-nav="notes">学习笔记</a></nav>
   </header>
   <main id="main" tabindex="-1">
     <section id="works" class="hero" data-nav-section="works" aria-labelledby="hero-title">
@@ -34,28 +36,127 @@
           <div class="hero-actions"><a class="button" href="#explore">探索作品<img src="./assets/icons/arrow-up-right.svg" width="23" height="23" alt=""></a><a class="text-link" href="#about">认识我<img class="icon-light" src="./assets/icons/arrow-right.svg" width="22" height="22" alt=""></a></div>
         </div>
         <div class="hero-project">
-          <div class="hero-project-copy"><h2>YourWar</h2><p>现有外部作品 · 进入试玩</p></div>
-          <a class="circle-link" href="https://yourwar-battle-forge.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="external-notice" aria-label="试玩 YourWar，外部入口，新标签页打开"><img src="./assets/icons/arrow-up-right.svg" width="28" height="28" alt=""></a>
+          <!-- generated:hero-project:start -->
+        <div class="hero-project-copy"><h2>YourWar</h2><p>3D 战争沙盘 · 自由布阵</p></div>
+        <a class="circle-link" href="https://yourwar-battle-forge.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="external-notice" aria-label="试玩 YourWar · 你的战争，外部入口，新标签页打开"><img src="./assets/icons/arrow-up-right.svg" width="28" height="28" alt=""></a>
+      <!-- generated:hero-project:end -->
         </div>
       </div>
     </section>
-    <section id="explore" class="explore frame" aria-labelledby="explore-title">
-      <div class="section-caption"><h2 id="explore-title">继续探索</h2><span class="eyebrow" lang="en">MORE TO EXPLORE</span></div>
-      <div class="explore-grid">
-        <article class="arcade-card" aria-labelledby="arcade-title">
-          <figure class="arcade-cover"><img class="arcade-image" src="./assets/images/pocket-arcade.webp" srcset="./assets/images/pocket-arcade-720.webp 720w, ./assets/images/pocket-arcade.webp 1691w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 980px) 52vw, (max-width: 1250px) 42vw, 557px" width="1691" height="930" alt="口袋游乐场概念封面：暗色方块桌面上的球拍、小球与立体游戏物件。并非实际游戏截图。" loading="lazy" decoding="async"><figcaption class="concept-label">概念封面</figcaption></figure>
-          <div class="arcade-copy"><h3 id="arcade-title">口袋游乐场</h3><p>留一点时间，打开就去玩。</p><a class="button button-small" href="https://pocket-arcade-ten.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="external-notice">去试玩<img src="./assets/icons/arrow-up-right.svg" width="21" height="21" alt=""><span class="sr-only">（外部入口，新标签页）</span></a></div>
-        </article>
-        <article class="notes-feature" aria-labelledby="feature-notes-title">
-          <p class="eyebrow" lang="en">LEARNING / NOTES</p><h3 id="feature-notes-title">Agent 学习笔记</h3><p class="feature-description">记录从理解到动手的过程。</p>
-          <ul class="note-keywords" aria-label="笔记主题"><li>阅读</li><li>思考</li><li>实践</li></ul>
-          <div class="notes-feature-bottom"><a class="accent-link" href="#notes">浏览笔记<img class="icon-accent" src="./assets/icons/arrow-up-right.svg" width="21" height="21" alt=""></a><span class="status-label">待整理</span></div>
-        </article>
-      </div>
-      <div class="chapter-end"><p>保持好奇，持续动手。</p><span>丁康的个人主页</span></div>
+    <section id="explore" class="explore frame" data-nav-section="works" aria-labelledby="explore-title">
+      <!-- generated:gallery:start -->
+      <div class="gallery-heading"><div><p class="eyebrow" lang="en">THE WORK INDEX / 01—08</p><h2 id="explore-title">想法落地，<br>就有了这些作品。</h2></div><div class="gallery-intro"><p>喜欢游戏，就开一局。<br>对工具与 AI 感兴趣，也有得逛。</p><p class="gallery-count"><strong>08</strong><span>个作品<br>5 游戏 · 2 工具 · 1 学习</span></p></div></div>
+      <div class="gallery-guide"><span>快速了解我：交互游戏、生活工具、人机协作。</span><a href="#about">关于我<img class="icon-light" src="./assets/icons/arrow-right.svg" width="18" height="18" alt=""></a></div>
+      <div class="works-controls" data-works-controls hidden><div class="work-filters" data-work-filters role="group" aria-label="按作品分类筛选"><button type="button" data-work-category="all" aria-pressed="true">全部 <span>8</span></button><button type="button" data-work-category="game" aria-pressed="false">游戏 <span>5</span></button><button type="button" data-work-category="tool" aria-pressed="false">工具 <span>2</span></button><button type="button" data-work-category="learning" aria-pressed="false">学习 <span>1</span></button></div><form class="work-search" role="search" aria-label="搜索作品"><label for="work-search" class="sr-only">搜索作品名称、简介或特色</label><img class="icon-light" src="./assets/icons/magnifying-glass.svg" width="18" height="18" alt=""><input type="search" id="work-search" name="work-q" placeholder="搜索作品或玩法" maxlength="120" autocomplete="off"></form></div>
+      <div class="works-status-row"><p id="works-results-status" class="results-status" role="status" aria-live="polite">显示 8 / 8 个作品</p><button class="clear-filters" type="button" data-work-reset hidden>清除筛选</button></div>
+      <noscript><p class="no-script-note">以下是完整作品目录。启用 JavaScript 后可以按分类和关键词筛选。</p></noscript>
+      <ul class="works-grid" aria-label="Sites 作品目录" aria-describedby="works-results-status">
+        <li class="work-card" data-work-id="yourwar" data-work-category="game" data-work-search="YourWar · 你的战争 自由摆下你的阵容，在 3D 战争沙盘中尝试不同战术。 游戏 3D 沙盘 自由布阵 战术挑战">
+          <article aria-labelledby="work-yourwar-title">
+            <figure class="work-cover"><img src="./assets/images/hero-yourwar-960.webp" srcset="./assets/images/hero-yourwar-960.webp 960w, ./assets/images/hero-yourwar.webp 1659w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 980px) calc((100vw - 96px) / 2), (max-width: 1374px) calc((100vw - 120px) / 3), 407px" width="1659" height="948" alt="YourWar 概念封面：峡谷两侧的机器人军团，非实际游戏截图。" loading="lazy" decoding="async"><figcaption class="concept-label">概念封面 · 非实际截图</figcaption><span class="work-number" aria-hidden="true">01</span></figure>
+            <div class="work-body">
+              <div class="work-meta"><span>游戏</span><span class="work-access">公开作品</span></div>
+              <h3 id="work-yourwar-title">YourWar · 你的战争</h3>
+              <p class="work-summary">自由摆下你的阵容，在 3D 战争沙盘中尝试不同战术。</p>
+              <ul class="work-features" aria-label="作品特色"><li>3D 沙盘</li><li>自由布阵</li><li>战术挑战</li></ul>
+              <div class="work-bottom"><p id="work-yourwar-notice" class="work-notice">在独立站点体验，新标签页打开。</p><a class="work-link" href="https://yourwar-battle-forge.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="work-yourwar-notice" aria-label="访问作品：YourWar · 你的战争（新标签页）">开始试玩<img src="./assets/icons/arrow-up-right.svg" width="20" height="20" alt="" class="icon-accent"></a></div>
+            </div>
+          </article>
+        </li>
+        <li class="work-card" data-work-id="pocket-arcade" data-work-category="game" data-work-search="口袋游乐场 · 十款即玩小游戏 十种独立玩法，随手开启一局；从塔防、幸存者到跑酷与策略。 游戏 十款小游戏 电脑与触屏 多种玩法">
+          <article aria-labelledby="work-pocket-arcade-title">
+            <figure class="work-cover"><img src="./assets/images/pocket-arcade-720.webp" srcset="./assets/images/pocket-arcade-720.webp 720w, ./assets/images/pocket-arcade.webp 1691w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 980px) calc((100vw - 96px) / 2), (max-width: 1374px) calc((100vw - 120px) / 3), 407px" width="1691" height="930" alt="口袋游乐场概念封面：暗色桌面上的游戏物件，非实际游戏截图。" loading="lazy" decoding="async"><figcaption class="concept-label">概念封面 · 非实际截图</figcaption><span class="work-number" aria-hidden="true">02</span></figure>
+            <div class="work-body">
+              <div class="work-meta"><span>游戏</span><span class="work-access">公开作品</span></div>
+              <h3 id="work-pocket-arcade-title">口袋游乐场 · 十款即玩小游戏</h3>
+              <p class="work-summary">十种独立玩法，随手开启一局；从塔防、幸存者到跑酷与策略。</p>
+              <ul class="work-features" aria-label="作品特色"><li>十款小游戏</li><li>电脑与触屏</li><li>多种玩法</li></ul>
+              <div class="work-bottom"><p id="work-pocket-arcade-notice" class="work-notice">在独立站点体验，新标签页打开。</p><a class="work-link" href="https://pocket-arcade-ten.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="work-pocket-arcade-notice" aria-label="访问作品：口袋游乐场 · 十款即玩小游戏（新标签页）">开始试玩<img src="./assets/icons/arrow-up-right.svg" width="20" height="20" alt="" class="icon-accent"></a></div>
+            </div>
+          </article>
+        </li>
+        <li class="work-card" data-work-id="roommate-housekeeper" data-work-category="tool" data-work-search="同住 · 合租生活管家 把费用分摊、值日与公共物品放在一起，让合租生活更有条理。 工具 费用 AA 值日排班 室友公约">
+          <article aria-labelledby="work-roommate-housekeeper-title">
+            <figure class="work-cover"><img src="./assets/images/roommate-housekeeper-640.webp" srcset="./assets/images/roommate-housekeeper-640.webp 640w, ./assets/images/roommate-housekeeper.webp 1200w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 980px) calc((100vw - 96px) / 2), (max-width: 1374px) calc((100vw - 120px) / 3), 407px" width="1200" height="750" alt="同住概念封面：象征合租生活与协作的微缩场景，非实际应用截图。" loading="lazy" decoding="async"><figcaption class="concept-label">概念封面 · 非实际截图</figcaption><span class="work-number" aria-hidden="true">03</span></figure>
+            <div class="work-body">
+              <div class="work-meta"><span>工具</span><span class="work-access">公开作品</span></div>
+              <h3 id="work-roommate-housekeeper-title">同住 · 合租生活管家</h3>
+              <p class="work-summary">把费用分摊、值日与公共物品放在一起，让合租生活更有条理。</p>
+              <ul class="work-features" aria-label="作品特色"><li>费用 AA</li><li>值日排班</li><li>室友公约</li></ul>
+              <div class="work-bottom"><p id="work-roommate-housekeeper-notice" class="work-notice">在独立站点体验，新标签页打开。</p><a class="work-link" href="https://roommate-housekeeper.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="work-roommate-housekeeper-notice" aria-label="访问作品：同住 · 合租生活管家（新标签页）">打开作品<img src="./assets/icons/arrow-up-right.svg" width="20" height="20" alt="" class="icon-accent"></a></div>
+            </div>
+          </article>
+        </li>
+        <li class="work-card" data-work-id="ai-collaboration" data-work-category="tool" data-work-search="AI Development Collaboration 面向软件、Agent、架构与设计转代码的人机协作可视化工作台。 工具 人机协作 可视化工作台 设计转代码">
+          <article aria-labelledby="work-ai-collaboration-title">
+            <figure class="work-cover"><img src="./assets/images/ai-collaboration-640.webp" srcset="./assets/images/ai-collaboration-640.webp 640w, ./assets/images/ai-collaboration.webp 1200w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 980px) calc((100vw - 96px) / 2), (max-width: 1374px) calc((100vw - 120px) / 3), 407px" width="1200" height="750" alt="AI 协作工作台概念封面：象征人机协作的模块与连接，非实际应用截图。" loading="lazy" decoding="async"><figcaption class="concept-label">概念封面 · 非实际截图</figcaption><span class="work-number" aria-hidden="true">04</span></figure>
+            <div class="work-body">
+              <div class="work-meta"><span>工具</span><span class="work-access">公开作品</span></div>
+              <h3 id="work-ai-collaboration-title">AI Development Collaboration</h3>
+              <p class="work-summary">面向软件、Agent、架构与设计转代码的人机协作可视化工作台。</p>
+              <ul class="work-features" aria-label="作品特色"><li>人机协作</li><li>可视化工作台</li><li>设计转代码</li></ul>
+              <div class="work-bottom"><p id="work-ai-collaboration-notice" class="work-notice">在独立站点体验，新标签页打开。</p><a class="work-link" href="https://ai-dev-collaboration-workbench.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="work-ai-collaboration-notice" aria-label="访问作品：AI Development Collaboration（新标签页）">打开作品<img src="./assets/icons/arrow-up-right.svg" width="20" height="20" alt="" class="icon-accent"></a></div>
+            </div>
+          </article>
+        </li>
+        <li class="work-card" data-work-id="mistbound-letters" data-work-category="game" data-work-search="雾海来信 驾驶小邮船穿过夜色群岛，送信、收集回忆，慢慢修复灯塔。 游戏 文字休闲 群岛探索 送信与回忆">
+          <article aria-labelledby="work-mistbound-letters-title">
+            <figure class="work-cover"><img src="./assets/images/mistbound-letters-640.webp" srcset="./assets/images/mistbound-letters-640.webp 640w, ./assets/images/mistbound-letters.webp 1200w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 980px) calc((100vw - 96px) / 2), (max-width: 1374px) calc((100vw - 120px) / 3), 407px" width="1200" height="750" alt="雾海来信概念封面：夜海、邮船与灯塔的微缩场景，非实际游戏截图。" loading="lazy" decoding="async"><figcaption class="concept-label">概念封面 · 非实际截图</figcaption><span class="work-number" aria-hidden="true">05</span></figure>
+            <div class="work-body">
+              <div class="work-meta"><span>游戏</span><span class="work-access">公开作品</span></div>
+              <h3 id="work-mistbound-letters-title">雾海来信</h3>
+              <p class="work-summary">驾驶小邮船穿过夜色群岛，送信、收集回忆，慢慢修复灯塔。</p>
+              <ul class="work-features" aria-label="作品特色"><li>文字休闲</li><li>群岛探索</li><li>送信与回忆</li></ul>
+              <div class="work-bottom"><p id="work-mistbound-letters-notice" class="work-notice">在独立站点体验，新标签页打开。</p><a class="work-link" href="https://mistbound-letters.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="work-mistbound-letters-notice" aria-label="访问作品：雾海来信（新标签页）">开始试玩<img src="./assets/icons/arrow-up-right.svg" width="20" height="20" alt="" class="icon-accent"></a></div>
+            </div>
+          </article>
+        </li>
+        <li class="work-card" data-work-id="moonlit-immortal" data-work-category="game" data-work-search="月下问仙录 在奇遇中做出选择，经营宗门，经历一段渡劫突破的文字修仙旅程。 游戏 奇遇抉择 宗门养成 文字修仙">
+          <article aria-labelledby="work-moonlit-immortal-title">
+            <figure class="work-cover"><img src="./assets/images/moonlit-immortal-640.webp" srcset="./assets/images/moonlit-immortal-640.webp 640w, ./assets/images/moonlit-immortal.webp 1200w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 980px) calc((100vw - 96px) / 2), (max-width: 1374px) calc((100vw - 120px) / 3), 407px" width="1200" height="750" alt="月下问仙录概念封面：月夜仙山与修行意象，非实际游戏截图。" loading="lazy" decoding="async"><figcaption class="concept-label">概念封面 · 非实际截图</figcaption><span class="work-number" aria-hidden="true">06</span></figure>
+            <div class="work-body">
+              <div class="work-meta"><span>游戏</span><span class="work-access">公开作品</span></div>
+              <h3 id="work-moonlit-immortal-title">月下问仙录</h3>
+              <p class="work-summary">在奇遇中做出选择，经营宗门，经历一段渡劫突破的文字修仙旅程。</p>
+              <ul class="work-features" aria-label="作品特色"><li>奇遇抉择</li><li>宗门养成</li><li>文字修仙</li></ul>
+              <div class="work-bottom"><p id="work-moonlit-immortal-notice" class="work-notice">在独立站点体验，新标签页打开。</p><a class="work-link" href="https://moonlit-immortal-chronicle.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="work-moonlit-immortal-notice" aria-label="访问作品：月下问仙录（新标签页）">开始试玩<img src="./assets/icons/arrow-up-right.svg" width="20" height="20" alt="" class="icon-accent"></a></div>
+            </div>
+          </article>
+        </li>
+        <li class="work-card" data-work-id="yunque-sanguo" data-work-category="game" data-work-search="云阙三国 · 群星觉醒 以三国幻想为舞台，招募与培养角色，组合阵容，展开卡牌 RPG 征战。 游戏 卡牌 RPG 招募养成 羁绊合击">
+          <article aria-labelledby="work-yunque-sanguo-title">
+            <figure class="work-cover"><img src="./assets/images/yunque-sanguo-640.webp" srcset="./assets/images/yunque-sanguo-640.webp 640w, ./assets/images/yunque-sanguo.webp 1200w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 980px) calc((100vw - 96px) / 2), (max-width: 1374px) calc((100vw - 120px) / 3), 407px" width="1200" height="750" alt="云阙三国概念封面：三国幻想卡牌与微缩战场意象，非实际游戏截图。" loading="lazy" decoding="async"><figcaption class="concept-label">概念封面 · 非实际截图</figcaption><span class="work-number" aria-hidden="true">07</span></figure>
+            <div class="work-body">
+              <div class="work-meta"><span>游戏</span><span class="work-access">公开作品</span></div>
+              <h3 id="work-yunque-sanguo-title">云阙三国 · 群星觉醒</h3>
+              <p class="work-summary">以三国幻想为舞台，招募与培养角色，组合阵容，展开卡牌 RPG 征战。</p>
+              <ul class="work-features" aria-label="作品特色"><li>卡牌 RPG</li><li>招募养成</li><li>羁绊合击</li></ul>
+              <div class="work-bottom"><p id="work-yunque-sanguo-notice" class="work-notice">在独立站点体验，新标签页打开。</p><a class="work-link" href="https://yunque-sanguo.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="work-yunque-sanguo-notice" aria-label="访问作品：云阙三国 · 群星觉醒（新标签页）">开始试玩<img src="./assets/icons/arrow-up-right.svg" width="20" height="20" alt="" class="icon-accent"></a></div>
+            </div>
+          </article>
+        </li>
+        <li class="work-card" data-work-id="agent-journey" data-work-category="learning" data-work-search="从零搭建 Agent · 架构学习日志 用可视化架构画布与阶段记录，梳理从零搭建 Agent 的学习过程。 学习 架构画布 阶段记录 Agent 学习">
+          <article aria-labelledby="work-agent-journey-title">
+            <figure class="work-cover"><img src="./assets/images/agent-journey-640.webp" srcset="./assets/images/agent-journey-640.webp 640w, ./assets/images/agent-journey.webp 1200w" sizes="(max-width: 680px) calc(100vw - 40px), (max-width: 980px) calc((100vw - 96px) / 2), (max-width: 1374px) calc((100vw - 120px) / 3), 407px" width="1200" height="750" alt="Agent 学习日志概念封面：架构模块与学习记录意象，非实际笔记截图。" loading="lazy" decoding="async"><figcaption class="concept-label">概念封面 · 非实际截图</figcaption><span class="work-number" aria-hidden="true">08</span></figure>
+            <div class="work-body">
+              <div class="work-meta"><span>学习</span><span class="work-access is-restricted">受限访问</span></div>
+              <h3 id="work-agent-journey-title">从零搭建 Agent · 架构学习日志</h3>
+              <p class="work-summary">用可视化架构画布与阶段记录，梳理从零搭建 Agent 的学习过程。</p>
+              <ul class="work-features" aria-label="作品特色"><li>架构画布</li><li>阶段记录</li><li>Agent 学习</li></ul>
+              <div class="work-bottom"><p id="work-agent-journey-notice" class="work-notice">需要已有访问权限；此处仅展示目录信息。</p><a class="work-link" href="https://agent-architecture-journey.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-describedby="work-agent-journey-notice" aria-label="打开受限入口：从零搭建 Agent · 架构学习日志（新标签页）">打开受限入口<img src="./assets/icons/arrow-up-right.svg" width="20" height="20" alt="" class="icon-accent"></a></div>
+            </div>
+          </article>
+        </li>
+      </ul>
+      <div class="works-empty" id="works-empty" hidden><p class="eyebrow" lang="en">TRY ANOTHER IDEA</p><h3>没有找到这个作品。</h3><p>换个关键词，或清除筛选再逛一逛。</p><button class="button" type="button">查看全部作品</button></div>
+      <div class="gallery-footnote"><p>7 个公开作品 · 1 个受限入口。封面均为概念创作，不是产品截图。</p><p>目录核对于 <time datetime="2026-10-06">2026.10.06</time></p></div>
+      <div class="chapter-end"><p>保持好奇，持续动手。</p><a href="#notes">也看看我的学习记录 ↓</a></div>
+      <!-- generated:gallery:end -->
     </section>
     <section id="about" class="about frame lower-section" data-nav-section="about" aria-labelledby="about-title">
-      <div class="about-copy"><p class="eyebrow" lang="en">A LITTLE ABOUT ME</p><h2 id="about-title">你好，我是丁康。</h2><p class="section-description">我的关注方向是 AI Agent 与金融科技。这里是了解我的起点，也是一份作品与学习记录的索引。</p></div><dl class="profile-list"><div><dt>方向</dt><dd>AI Agent 与金融科技</dd></div><div><dt>作品</dt><dd>YourWar · 口袋游乐场</dd></div><div><dt>笔记</dt><dd>Agent 架构学习笔记 · 待整理</dd></div></dl>
+      <div class="about-copy"><p class="eyebrow" lang="en">A LITTLE ABOUT ME</p><h2 id="about-title">你好，我是丁康。</h2><p class="section-description">我的关注方向是 AI Agent 与金融科技。我喜欢把抽象想法变成可以体验的东西，也在用游戏、生活工具和协作工作台持续探索。这些作品，是了解我的一个起点。</p></div><dl class="profile-list"><div><dt>方向</dt><dd>AI Agent 与金融科技</dd></div><div><dt>作品</dt><dd><!-- generated:profile-works:start -->
+8 个作品 · 游戏 / 工具 / 学习
+      <!-- generated:profile-works:end --></dd></div><div><dt>笔记</dt><dd>公开笔记待整理 · 已有日志受限访问</dd></div></dl>
     </section>
     <section id="notes" class="notebook frame lower-section" data-nav-section="notes" aria-labelledby="notebook-title">
       <div class="notebook-heading"><div><p class="eyebrow" lang="en">LEARNING IN PUBLIC</p><h2 id="notebook-title">把理解，慢慢写下来。</h2></div><p class="section-description">这里将收录整理后的公开笔记。按方向浏览，或找一个感兴趣的关键词。</p></div>
@@ -70,9 +171,11 @@
       <p id="notes-results-status" class="results-status" role="status" aria-live="polite">尚无公开笔记</p>
       <ul class="note-list" id="note-list" aria-label="公开笔记列表" aria-describedby="notes-results-status"></ul>
       <div class="notes-empty" id="notes-empty"><p class="eyebrow" lang="en">ROOM FOR WHAT COMES NEXT</p><h3 id="empty-title">笔记正在整理。</h3><p id="empty-description">目前还没有发布文章。新的理解与实践，会在整理后出现在这里。</p></div>
-      <details class="legacy-notes"><summary>已有笔记入口与访问说明</summary><div><p>已有笔记入口的公开访问检查返回 401，可能需要登录或访问权限。</p><a href="https://agent-architecture-journey.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer">打开已有笔记入口<span class="sr-only">（可能需要登录，新标签页）</span><img class="icon-light" src="./assets/icons/arrow-up-right.svg" width="18" height="18" alt=""></a></div></details>
+      <!-- generated:legacy-notes:start -->
+      <details class="legacy-notes"><summary>已有学习日志与访问说明</summary><div><p>「从零搭建 Agent · 架构学习日志」为受限站点，需要已有访问权限。这里不展示或复制日志正文。</p><a href="https://agent-architecture-journey.dingikang.chatgpt.site/" target="_blank" rel="noopener noreferrer">打开受限学习日志<span class="sr-only">（需要访问权限，新标签页）</span><img class="icon-light" src="./assets/icons/arrow-up-right.svg" width="18" height="18" alt=""></a></div></details>
+      <!-- generated:legacy-notes:end -->
     </section>
   </main>
-  <footer class="site-footer frame"><div><span class="footer-name">丁康</span><p id="external-notice">作品链接为现有外部试玩入口，尚未迁移；中国大陆访问情况尚未验证。新标签页打开。</p></div><a class="text-link" href="#top">回到页首<img class="icon-light back-top-icon" src="./assets/icons/arrow-up-right.svg" width="20" height="20" alt=""></a></footer>
+  <footer class="site-footer frame"><div><span class="footer-name">丁康 · 夜航实验室</span><p id="external-notice">作品在各自的 Sites 站点运行，链接将在新标签页打开。受限入口需要已有权限；中国大陆无代理访问体验尚未验证。</p></div><a class="text-link" href="#top">回到页首<img class="icon-light back-top-icon" src="./assets/icons/arrow-up-right.svg" width="20" height="20" alt=""></a></footer>
 </body>
 </html>

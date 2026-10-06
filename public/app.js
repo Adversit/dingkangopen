@@ -2,7 +2,8 @@
   'use strict';
   var data = window.NIGHT_LAB_NOTES;
   var core = window.NightLabNotes;
-  if (!data || !core) return;
+  var notebook = document.getElementById('notes');
+  if (!data || !core || !notebook) return;
   var list = document.getElementById('note-list');
   var empty = document.getElementById('notes-empty');
   var status = document.getElementById('notes-results-status');
@@ -53,24 +54,24 @@
     document.getElementById('empty-title').textContent = message.title;
     document.getElementById('empty-description').textContent = message.description;
     status.textContent = total === 0 ? (core.hasFilters(state) ? '当前筛选下暂无公开笔记' : '尚无公开笔记') : '显示 ' + items.length + ' 篇公开笔记';
-    document.querySelectorAll('[data-category]').forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.category === state.category)); });
-    document.querySelectorAll('[data-tag]').forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.tag === state.tag)); });
+    notebook.querySelectorAll('[data-category]').forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.category === state.category)); });
+    notebook.querySelectorAll('[data-tag]').forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.tag === state.tag)); });
     clear.hidden = !core.hasFilters(state);
   }
-  document.querySelector('.category-filters').addEventListener('click', function (event) {
+  notebook.querySelector('.category-filters').addEventListener('click', function (event) {
     var button = event.target.closest('button[data-category]');
     if (!button) return;
     state.category = button.dataset.category;
     render();
   });
-  document.querySelector('.tag-filters').addEventListener('click', function (event) {
+  notebook.querySelector('.tag-filters').addEventListener('click', function (event) {
     var button = event.target.closest('button[data-tag]');
     if (!button) return;
     state.tag = button.dataset.tag;
     render();
   });
   input.addEventListener('input', function () { state.query = input.value; render(); });
-  document.querySelector('.search-form').addEventListener('submit', function (event) { event.preventDefault(); });
+  notebook.querySelector('.search-form').addEventListener('submit', function (event) { event.preventDefault(); });
   clear.addEventListener('click', function () {
     state = {category:'all', tag:'all', query:''};
     input.value = '';
@@ -78,8 +79,10 @@
     input.focus({preventScroll:true});
   });
   render();
-  document.querySelector('[data-js-controls]').hidden = false;
-
+  notebook.querySelector('[data-js-controls]').hidden = false;
+})();
+(function () {
+  'use strict';
   var navLinks = Array.from(document.querySelectorAll('[data-nav]'));
   function activate(id) {
     navLinks.forEach(function (link) {

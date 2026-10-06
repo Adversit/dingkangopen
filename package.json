@@ -1,12 +1,13 @@
 {
   "name": "dingkang-homepage",
   "private": true,
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Static homepage prepared for ESA Git integration",
   "engines": { "node": "22" },
   "scripts": {
     "build": "node scripts/build.cjs",
-    "test": "node --test tests/notes.test.cjs tests/deployment.test.cjs",
+    "test": "node --test tests/notes.test.cjs tests/deployment.test.cjs tests/works.test.cjs",
+    "generate": "node scripts/works.cjs",
     "check": "node scripts/check.cjs"
   }
 }

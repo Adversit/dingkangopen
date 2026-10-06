@@ -7,7 +7,7 @@ const {filesIn} = require('./assets.cjs');
 
 // ESA runs the same checks before copying any production assets.
 const source = check();
-execFileSync(process.execPath,['--test','tests/notes.test.cjs','tests/deployment.test.cjs'],{cwd:root,stdio:'inherit'});
+execFileSync(process.execPath,['--test','tests/notes.test.cjs','tests/deployment.test.cjs','tests/works.test.cjs'],{cwd:root,stdio:'inherit'});
 const destination = path.resolve(root,'dist');
 assert.equal(path.dirname(destination),root,'Output must stay inside this project');
 if(fs.existsSync(destination)) {
