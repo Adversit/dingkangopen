@@ -1,0 +1,77 @@
+{
+  "original_zip_sha256": "c6cf74511a79e46e8dcb2cc6bcfc46154f8d182fa7cf417a3edd6f3a07706ceb",
+  "files": {
+    "index.html": {
+      "bytes": 10088,
+      "sha256": "970f51de44964e232051d258710935e00863a64258ed3cee48d83d41c763a701"
+    },
+    "notes-data.js": {
+      "bytes": 233,
+      "sha256": "c12308f181993e51544d2a2bc25e10f331fbf1f8938d7b286874617e078d81bb"
+    },
+    "styles.css": {
+      "bytes": 18906,
+      "sha256": "14465857febb2ac9a83553fed11978dbae4611d46e350972b8304441761d3172"
+    },
+    "notes-core.js": {
+      "bytes": 2393,
+      "sha256": "ea8745e89b5317ef928f6202073d08c403110e519e10cc42ff857ede0b4c424c"
+    },
+    "app.js": {
+      "bytes": 4779,
+      "sha256": "7cef52306c9ddb2e640bdcc251ad5c55efc7f831c1310f69736e427adffb3cf2"
+    },
+    "assets/fonts/manrope-latin.woff2": {
+      "bytes": 28348,
+      "sha256": "3cfd6d816caf7ead65ce00acd3dd0c88ee22cb054cd7098c00166145b2d664e3"
+    },
+    "assets/fonts/noto-sans-sc-subset.woff2": {
+      "bytes": 112424,
+      "sha256": "22938d34e71d3bea9222e851ac6cdf7c221ca3c6d7e4b849321694f270f1adab"
+    },
+    "assets/fonts/OFL-Manrope.txt": {
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+    },
+    "assets/fonts/OFL-NotoSansSC.txt": {
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    "assets/icons/arrow-up-right.svg": {
+      "bytes": 217,
+      "sha256": "44db5257b360ec04863eb6daaa41f220c8b714d23fb81403517d0a30acfda9f4"
+    },
+    "assets/icons/arrow-right.svg": {
+      "bytes": 245,
+      "sha256": "e45bc4a12592b8723110db42c6deffdf177e4fe7704cf50324963fa0a59b2d74"
+    },
+    "assets/icons/magnifying-glass.svg": {
+      "bytes": 243,
+      "sha256": "f9fa2561978a9a3291e8ae0ebfcb651104f5069fade8f84871627bca68889cde"
+    },
+    "assets/icons/square-fill.svg": {
+      "bytes": 195,
+      "sha256": "2b79576bc5936252752ed288dfeb9ca8204eb4acbcf60002f0effafc760f2ed0"
+    },
+    "assets/icons/LICENSE.txt": {
+      "bytes": 1071,
+      "sha256": "b5b1f1da112d18ea2147decfd48ddc1bf2b5aeb6c265381579340e95b15a2bb2"
+    },
+    "assets/images/hero-yourwar.webp": {
+      "bytes": 176870,
+      "sha256": "fac0e8ddf751d5b72d4f221e1d57852580d7bf39563f20f5789fcc9a8bebfbb7"
+    },
+    "assets/images/pocket-arcade.webp": {
+      "bytes": 83620,
+      "sha256": "132ff975cc2699d8d0594de8dbef163ea4c4cba7a55242a04dd0ec7da04e806e"
+    },
+    "assets/images/hero-yourwar-960.webp": {
+      "bytes": 76720,
+      "sha256": "8a6973bc33fcdfcb5802a639fbb2ae401ca149421fa6377f51de72d0e78df255"
+    },
+    "assets/images/pocket-arcade-720.webp": {
+      "bytes": 27540,
+      "sha256": "794af26399c80b128b17652b31a9a69c9d1a6125a1b7c73c1e4dc6ddc9b42ffb"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Preserve the accepted static payload exactly across platforms.
+public/** -text
+*.cjs text eol=lf
+*.json text eol=lf
+*.jsonc text eol=lf
+*.md text eol=lf

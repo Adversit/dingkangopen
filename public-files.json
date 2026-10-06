@@ -1,0 +1,20 @@
+[
+  "app.js",
+  "assets/fonts/OFL-Manrope.txt",
+  "assets/fonts/OFL-NotoSansSC.txt",
+  "assets/fonts/manrope-latin.woff2",
+  "assets/fonts/noto-sans-sc-subset.woff2",
+  "assets/icons/LICENSE.txt",
+  "assets/icons/arrow-right.svg",
+  "assets/icons/arrow-up-right.svg",
+  "assets/icons/magnifying-glass.svg",
+  "assets/icons/square-fill.svg",
+  "assets/images/hero-yourwar-960.webp",
+  "assets/images/hero-yourwar.webp",
+  "assets/images/pocket-arcade-720.webp",
+  "assets/images/pocket-arcade.webp",
+  "index.html",
+  "notes-core.js",
+  "notes-data.js",
+  "styles.css"
+]
