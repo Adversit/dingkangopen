@@ -44,7 +44,9 @@ function validate(data) {
     assert(work.cover.alt.includes('概念封面') && work.cover.alt.includes('非实际'), 'Concept artwork must not imply a screenshot');
   }
   assert(data.works.some(work => work.id === 'yourwar'), 'Hero work is missing');
-  assert(data.works.some(work => work.id === 'agent-journey' && work.access === 'restricted'), 'Learning entry must retain its access boundary');
+  for (const id of ['agent-journey', 'cloudrush-runner']) {
+    assert(data.works.some(work => work.id === id && work.access === 'restricted'), `${id} must retain its access boundary`);
+  }
   return data;
 }
 function loadCatalog() { return validate(JSON.parse(fs.readFileSync(path.join(root, 'data/works.json'), 'utf8'))); }

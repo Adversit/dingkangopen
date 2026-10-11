@@ -1,6 +1,6 @@
 # Portfolio asset sources
 
-Updated: 2026-10-06 (Asia/Shanghai).
+Updated: 2026-10-11 (Asia/Shanghai). Validation records retain their original evidence dates.
 
 ## Public-use provenance
 
@@ -10,7 +10,7 @@ These are **AI-generated concept covers**, not product screenshots or evidence o
 
 Only optimized WebP assets are included in the public project. Source PNGs and local generation receipts are intentionally excluded from this repository and its deployment allowlist.
 
-## New cover files
+## 2026-10-06 cover files
 
 Every primary file is 1200 x 750 pixels; every `-640.webp` variant is 640 x 400 pixels. All paths below are relative to `public/assets/images/`.
 
@@ -34,7 +34,7 @@ Encoding: WebP quality 82, method 6. Generated source dimensions were 1586 x 992
 
 The original generation prompts for those two existing covers were not established by the inspected import record, so they are not reconstructed here. No private source locations are published.
 
-## Asset validation record
+## 2026-10-06 asset validation record
 
 Evidence date: 2026-10-06 (Asia/Shanghai). Scope is image assets only; page behavior, site links, deployment, and final browser acceptance are separate checks.
 
@@ -80,3 +80,40 @@ Use case: stylized-concept. Asset type: original portfolio concept cover for a p
 ### ai-collaboration
 
 Use case: stylized-concept. Asset type: original portfolio concept cover about human and AI collaboration in design and engineering. One independent cinematic miniature 3D illustration, landscape 16:10, target 1536x960. A precise dark-green workshop tabletop with physical modular architectural blocks, a few translucent blank design canvases standing on small holders, drafting tools, a minimal jointed mechanical helper arm connecting two modules, delicate lemon-yellow paths linking the pieces. A tangible metaphor for translating an idea into working software, not any actual user interface. Finely crafted matte ceramic and dark brushed metal, background close to #0e1414, restrained lemon-yellow accents, subtle warm task lighting, atmospheric cinematic depth, sophisticated composed studio mood. Central safe composition. No readable text, numbers, private files, account details, product logos, trademarked robots, watermark, screenshot or real application UI. One coherent original concept scene.
+
+## 2026-10-11 additions
+
+Two more original concept covers were created with the built-in OpenAI ImageGen tool, each in its own generation call, with no image-reference inputs or third-party raster assets. Both are **AI-generated concept covers**, not screenshots of the linked products. Art direction follows the existing dark-green and lemon-yellow Night Voyage Lab palette.
+
+- `starfall-creature-isles` represents the public project **星屿同行 · 精灵探索物语**. Its source brief is the supplied public metadata: hand-painted islands, original creatures, capture/training/evolution, and four lighthouse guardians. The illustration interprets that premise with invented creature designs and four lighthouses; it does not assert that these exact characters or scenery appear in the game.
+- `cloudrush-runner` represents the restricted project **逐风奇旅 · 云端跑酷**. Its source brief is limited to the supplied metadata: runners, mounts and pets crossing floating islands in a side-scrolling parkour game. Restricted page content was not read or used. The fantasy runner, mount, pet and environment are original conceptual designs, not extracted product content.
+
+Source PNGs, source paths and generation receipts are kept outside the repository. Only the optimized, locally hosted WebP files below are public artifacts. No access permissions were changed for either linked project.
+
+| Primary file | Primary dimensions | Primary bytes | Small file | Small dimensions | Small bytes |
+| --- | --- | ---: | --- | --- | ---: |
+| `starfall-creature-isles.webp` | 1200 x 750 | 131,152 | `starfall-creature-isles-640.webp` | 640 x 400 | 49,202 |
+| `cloudrush-runner.webp` | 1200 x 750 | 129,720 | `cloudrush-runner-640.webp` | 640 x 400 | 52,006 |
+
+All four files live under `public/assets/images/`. The new primary variants total **260,872 bytes**; the small variants total **101,208 bytes**; this batch totals **362,080 bytes**.
+
+Encoding: WebP quality 82, method 6. Both generated sources were 1586 x 992 pixels. Lanczos resizing with a negligible centered fit yields exact 16:10 variants. Conversion did not add, combine or replace scene elements.
+
+### 2026-10-11 asset validation record
+
+Evidence time: 2026-10-11 16:10 (Asia/Shanghai). These results cover the image files; integration, browser layout and production release require their separate validation.
+
+- All four new files were fully decoded successfully using Pillow; WebP format and exact output dimensions were asserted individually.
+- The combined 362,080-byte size passed the batch's 500,000-byte cap. SHA-256 hashes were recorded in the local generation receipt.
+- Both original generations and all four final WebP variants were visually inspected. No visible text, watermark, private records or application UI appears in them.
+- Starfall: all three invented creatures and the four lighthouse locations remain recognizable in the 640-pixel preview. No recognizable commercial franchise character or branded capture prop is visible.
+- Cloudrush: the runner, four-legged mount, floating pet and separate platforms remain clear at 640 pixels; the composition communicates lateral movement without an invented gameplay interface.
+- The source document was explicitly reread as UTF-8 after writing; the two Chinese project titles and all four output filenames were verified.
+
+### Exact generation prompt: starfall-creature-isles
+
+Use case: stylized-concept. Asset type: original concept cover for a personal portfolio's island creature exploration game. Create ONE independent landscape illustration, 16:10, target 1536x960. An imaginative hand-painted miniature archipelago at night: mossy rocky islets in deep teal water, exactly four small distinct lighthouse towers visible across the islands with tiny warm glowing beacons. In the clear foreground, three original friendly fantasy creatures explore together: a small rounded stone-and-moss quadruped with petal-like ears, an elegant translucent leaf-fin creature drifting above the path, and a tiny feather-and-shell creature beside them. Invent fresh silhouettes and features rather than imitating any established game franchise. Suggest discovery, companionship and growth through the group and landscape, without game mechanics icons. Finely crafted miniature 3D forms with hand-painted surface texture, premium editorial concept illustration, dark green-black #0e1414 surroundings, restrained lemon-yellow and warm amber highlights, calm cinematic lighting and layered mist. Keep creatures and main lighthouse inside the central 80 percent. One coherent scene, not a collage. No readable text, numbers, logos, watermark, recognizable franchise characters, game interface, capture balls, private data or actual screenshot. Opaque background. This is explicitly original conceptual cover artwork, not actual game graphics.
+
+### Exact generation prompt: cloudrush-runner
+
+Use case: stylized-concept. Asset type: original concept cover for a personal portfolio's floating-island side-scrolling parkour game. Create ONE independent landscape illustration, 16:10, target 1536x960. A coherent side-on miniature scene of a small anonymous scarf-wearing runner leaping from one floating stone-and-grass island to another, accompanied by an original graceful four-legged fantasy mount and one tiny round floating pet. Show a clear left-to-right course across suspended rocky platforms, distant cloud islands and soft atmospheric depth, with a few tiny warm light accents emphasizing movement. Precise sculpted miniature forms, soft hand-painted material detail, premium cinematic concept illustration. Dark green-black #0e1414 sky and shadows, restrained lemon-yellow highlights, muted moss green and warm amber, luminous pale mist beneath the islands. The moving trio is the main subject with readable silhouettes at thumbnail size, framed in the central 80 percent. Use only this high-level premise; do not invent visible UI, story-specific identifiers or factual feature claims. One coherent original scene, not a collage. No readable text, numbers, logos, watermark, recognizable copyrighted characters, game interface, private records or actual screenshot. Opaque background. This is explicitly original conceptual cover artwork, not actual game graphics.

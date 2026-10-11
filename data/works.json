@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "verifiedAt": "2026-10-06T23:19:10+08:00",
+  "verifiedAt": "2026-10-11T16:05:00.750+08:00",
   "works": [
     {
       "id": "yourwar",
@@ -14,10 +14,10 @@
     },
     {
       "id": "pocket-arcade",
-      "title": "口袋游乐场 · 十款即玩小游戏",
+      "title": "口袋游乐场 · 十三款即玩小游戏",
       "category": "game",
-      "summary": "十种独立玩法，随手开启一局；从塔防、幸存者到跑酷与策略。",
-      "features": ["十款小游戏", "电脑与触屏", "多种玩法"],
+      "summary": "十三种独立玩法，随手开启一局；从塔防、幸存者到跑酷、策略与解谜。",
+      "features": ["十三款小游戏", "电脑与触屏", "休闲解谜"],
       "access": "public",
       "url": "https://pocket-arcade-ten.dingikang.chatgpt.site/",
       "cover": {"src": "assets/images/pocket-arcade.webp", "small": "assets/images/pocket-arcade-720.webp", "width": 1691, "height": 930, "smallWidth": 720, "alt": "口袋游乐场概念封面：暗色桌面上的游戏物件，非实际游戏截图。"}
@@ -71,6 +71,26 @@
       "access": "public",
       "url": "https://yunque-sanguo.dingikang.chatgpt.site/",
       "cover": {"src": "assets/images/yunque-sanguo.webp", "small": "assets/images/yunque-sanguo-640.webp", "width": 1200, "height": 750, "smallWidth": 640, "alt": "云阙三国概念封面：三国幻想卡牌与微缩战场意象，非实际游戏截图。"}
+    },
+    {
+      "id": "starfall-creature-isles",
+      "title": "星屿同行 · 精灵探索物语",
+      "category": "game",
+      "summary": "在手绘群岛中探索，结识原创精灵，捕捉、培养与进化，展开自己的冒险故事。",
+      "features": ["精灵收集", "培养进化", "群岛探索"],
+      "access": "public",
+      "url": "https://starfall-creature-isles.dingikang.chatgpt.site/",
+      "cover": {"src": "assets/images/starfall-creature-isles.webp", "small": "assets/images/starfall-creature-isles-640.webp", "width": 1200, "height": 750, "smallWidth": 640, "alt": "星屿同行概念封面：原创精灵与群岛探索意象，非实际游戏截图。"}
+    },
+    {
+      "id": "cloudrush-runner",
+      "title": "逐风奇旅 · 云端跑酷",
+      "category": "game",
+      "summary": "与跑者、坐骑和宠物穿越浮空岛的横版跑酷游戏。",
+      "features": ["横版跑酷", "浮空岛", "坐骑与宠物"],
+      "access": "restricted",
+      "url": "https://cloudrush-runner.dingikang.chatgpt.site/",
+      "cover": {"src": "assets/images/cloudrush-runner.webp", "small": "assets/images/cloudrush-runner-640.webp", "width": 1200, "height": 750, "smallWidth": 640, "alt": "逐风奇旅概念封面：浮空岛与云端跑酷意象，非实际游戏截图。"}
     },
     {
       "id": "agent-journey",
